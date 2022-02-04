@@ -1,0 +1,203 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sara Hackle",
+      "email": "sara@nss.com"
+    },
+    {
+      "id": 2,
+      "name": "Nate Vogel",
+      "email": "nate@nss.com"
+    }
+  ],
+  "gameCards": [
+    {
+      "cardId": 1,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": true,
+      "id": 1
+    },
+    {
+      "cardId": 3,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": false,
+      "isActive": false,
+      "isHostCard": true,
+      "id": 2
+    },
+    {
+      "cardId": 4,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": true,
+      "id": 3
+    },
+    {
+      "cardId": 5,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": true,
+      "id": 4
+    },
+    {
+      "cardId": 6,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": false,
+      "isActive": false,
+      "isHostCard": true,
+      "id": 5
+    },
+    {
+      "cardId": 7,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": true,
+      "id": 6
+    },
+    {
+      "cardId": 2,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": false,
+      "isActive": false,
+      "isHostCard": true,
+      "id": 7
+    },
+    {
+      "cardId": 1,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": false,
+      "id": 8
+    },
+    {
+      "cardId": 2,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": false,
+      "isActive": false,
+      "isHostCard": false,
+      "id": 9
+    },
+    {
+      "cardId": 3,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": false,
+      "id": 10
+    },
+    {
+      "cardId": 4,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": false,
+      "isActive": false,
+      "isHostCard": false,
+      "id": 11
+    },
+    {
+      "cardId": 5,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": false,
+      "id": 12
+    },
+    {
+      "cardId": 6,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": true,
+      "isActive": false,
+      "isHostCard": false,
+      "id": 13
+    },
+    {
+      "cardId": 7,
+      "gameId": 1,
+      "isPlayed": true,
+      "isCompleted": false,
+      "isActive": false,
+      "isHostCard": false,
+      "id": 14
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "title": "Do the Dishes",
+      "description": "Today is the your day to shine... the dishes! Big party tonight? That's too bad.Get that sponge ready!",
+      "cardTypeId": 1
+    },
+    {
+      "id": 2,
+      "title": "Dirty Laundry",
+      "description": "Bed Sheets, towels, hampers..oh my! The washer and dryer are your best friends today.Everything that needs washing is yours to clean.",
+      "cardTypeId": 1
+    },
+    {
+      "id": 3,
+      "title": "Wash the Washroom",
+      "description": "You're definitely going to want to play this card before your opponent! This job is way easier the second time around (hopefully). Get out the Mr Clean, and scrub that tub!",
+      "cardTypeId": 1
+    },
+    {
+      "id": 4,
+      "title": "Floor Buster",
+      "description": "Vacuum, sweep, mop...whatever you've gotta do. Mom's stopping by and these floors need to be clean enough to eat off of!",
+      "cardTypeId": 1
+    },
+    {
+      "id": 5,
+      "title": "Personal Chef",
+      "description": "Your opponent is hungry and they don't want to wait! Today you must make all snacks and meals at the whim of your opponent. Let me know when the grub is ready!",
+      "cardTypeId": 1
+    },
+    {
+      "id": 6,
+      "title": "Dust Bunny",
+      "description": "Gesundheit, in advance, my friend. Today we're going where no man has gone...in a while. You'll be dusting the whole house. Don't forget the ceiling fans!",
+      "cardTypeId": 1
+    },
+    {
+      "id": 7,
+      "title": "The Checks on You",
+      "description": "Breakfast, Lunch, Dinner...Delivery or Dine In... you're picking up the tab on this one. Don't forget the tip!",
+      "cardTypeId": 1
+    }
+  ],
+  "cardTypes": [
+    {
+      "id": 1,
+      "type": "Roommate"
+    }
+  ],
+  "games": [
+    {
+      "hostId": 1,
+      "visitorId": 2,
+      "visitorAccepted": false,
+      "visitorScore": 4,
+      "hostScore": 3,
+      "gameCompleted": true,
+      "id": 1
+    }
+  ]
+}
